@@ -1,0 +1,135 @@
+﻿@{
+    ViewData["Title"] = "Начало";
+}
+<style>
+
+    *{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .section-h1
+    {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .section-h1:after {
+        content: '';
+        display: block;
+        height: 5px;
+        background-color: green;
+        position:center;
+        margin-left:auto;
+        margin-top:5px;
+        margin-right:auto;
+        width: 5%;
+    }
+
+    .hr-1
+    {
+        border-top-color: green;
+    }
+</style>
+
+<div class="top-div" style="background-color:forestgreen;">
+    <h1 style="font-size:50px">Лаборатория за Иновативни Технологии</h1>
+    <br />
+    <h2>Съчетаваме <span style="color:lawngreen">екологията</span> с <span style="color:darkblue">технологията</span></h2>
+    <img src="~/images/Logo.png" style="display: inline-table; margin-top: 100px;"/>
+    <img src="~/images/MGLogo.png" style="display: inline-table; margin-left:150px; margin-top:100px;"/>
+</div>
+<div style="background-color:#007f00;" class="about-box">
+    <img src="~/images/people.png" class="img-responsive" style="width:100px; height:100px;" />
+    <h2>КОИ СМЕ НИЕ</h2>
+    <p>Ние сме група млади ентусиасти, обичащи програмирането, предприемачеството и природата.</p>
+    <br />
+    <a href="#team">Прочетете още...</a>
+</div><div style="background-color:#009900;" class="about-box">
+    <img src="~/images/working.png" class="img-responsive" style="width:120px; height:100px;" />
+    <h2>ПРОЕКТИТЕ НИ</h2>
+    <p>Нашите проекти са свързани с измерването на различни характеристики на въздуха от ниската атмосфера.</p>
+    <br />
+    <a href="#">Прочетете още...</a>
+</div><div style="background-color:#00b200;" class="about-box">
+    <img src="~/images/target.png" class="img-responsive" style="width:100px; height:100px;" />
+    <h2>МИСИЯТА НИ</h2>
+    <p>Мисията ни е да се повишим качеството на живот на хората и заедно с това да се грижим за природата.</p>
+    <br/>
+    <a href="#">Прочетете още...</a>
+</div><div style="background-color:#00cc00;" class="about-box">
+    <img src="~/images/partners.png" class="img-responsive" style="width:140px; height:100px;" />
+    <h2>ПАРНЬОРИТЕ НИ</h2>
+    <p>Имаме няколко партньорa, които ни помагат да се развиваме.</p>
+    <br />
+    <a href="#">Прочетете още...</a>
+</div>
+
+<div class="container body-content top-div" style="color:black; height: auto;" id="team">
+    <h1 class="section-h1">Нашият отбор</h1>
+    <div>
+        <div class="about-box" style="color: black">
+            <img src="~/images/KostadinLevkov.jpg" style="border-radius:100%; width:200px; height: 200px;">
+            <h2>Костадин Левков</h2>
+            <hr class="hr-1" />
+            <p>Ментор</p>
+        </div><div class="about-box" style="color: black">
+            <img src="~/images/DimitrinaDokimova.jpg" style="border-radius:100%; width:200px; height: 200px;">
+            <h2>Димитрина Докимова</h2>
+            <hr class="hr-1" />
+            <p>Ментор</p>
+        </div><div class="about-box" style="color: black">
+            <img src="~/images/HristomirHristov.jpg" style="border-radius: 100%; width: 200px; height: 200px;">
+            <h2>Христомир Христов</h2>
+            <hr class="hr-1" />
+            <p>Ментор</p>
+        </div>
+    </div>
+    <div>
+        <div class="about-box" style="color: black">
+            <img src="~/images/AsenDotsinski.png" style="border-radius:100%; width:200px; height: 200px;">
+            <h2>Асен Доцински</h2>
+            <hr class="hr-1" />
+            <p>Разработка на метеорологичен модул "Зелено око" и самолет-носач "Sky Observer", администрация, презентиране</p>
+        </div><div class="about-box" style="color: black">
+            <img src="~/images/HristoDenev.jpg" style="border-radius:100%; width:200px; height: 200px;">
+            <h2>Христо Денев</h2>
+            <hr class="hr-1" />
+            <p>Разработка и поддръжка на уеб сайт, разработка на метеорологичен модул "Зелено око", администрация, маркетинг, презентиране</p>
+        </div><div class="about-box" style="color: black">
+            <img src="~/images/PolinaBodurova-square.png" style="border-radius: 100%">
+            <h2>Полина Бодурова</h2>
+            <hr class="hr-1" />
+            <p>Аминистрация, маркетинг, проучване, финанси, презентиране</p>
+        </div>
+    </div>
+    <div>
+        <div class="about-box" style="color: black">
+            <img src="~/images/DimitarPandev.jpg" style="border-radius:100%; width:200px; height: 200px;">
+            <h2>Димитър Пандев</h2>
+            <hr class="hr-1" />
+            <p>Разработка на самолет-носач "Sky Observer"</p>
+        </div><div class="about-box" style="color: black">
+            <img src="~/images/Borislav.jpg" style="border-radius:100%; width:200px; height: 200px;">
+            <h2>Борислав</h2>
+            <hr class="hr-1" />
+            <p>Хардуерна разработка на самолет-носач "Sky Observer"</p>
+        </div><div class="about-box" style="color: black">
+            <img src="~/images/AleksPopvelichkov.jpg" style="border-radius: 100%; width: 200px; height: 200px;">
+            <h2>Александър Попвеличков</h2>
+            <hr class="hr-1" />
+            <p>Разработка на роботизирана ръка</p>
+        </div>
+    </div>
+    <div>
+        <div class="about-box" style="color: black; width: 50%;">
+            <img src="~/images/martinGenchev.jpg" style="border-radius:100%; width:200px; height: 200px;">
+            <h2>Мартин Генчев</h2>
+            <hr class="hr-1" />
+            <p>Програмиране и дизайн на модели</p>
+        </div><div class="about-box" style="color: black; width: 50%;">
+            <img src="~/images/MiroslavAtanasov.jpg" style="border-radius:100%; width:200px; height: 200px;">
+            <h2>Мирослав Атанасов</h2>
+            <hr class="hr-1" />
+            <p>Презентиране</p>
+        </div>
+    </div>
+</div>
+
